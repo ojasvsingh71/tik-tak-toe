@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(21, 96, 100);
+}
+#heading{
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 8vmin;
+    color: white;
+}
+.bigbox{
+    display: flex;
+    height: 67vmin;
+    width: 67vmin;
+    
+    margin-top: 8vmin;
+    margin-left: 50%;
+    translate: -50%; 
+    flex-wrap: wrap;
+}
+.boxes{
+    height: 20vmin;
+    width: 20vmin;
+    margin: 1vmin;
+    border-radius: 25%;
+    background-color: rgb(0, 196, 154);
+}
+#winner_found{
+    text-align: center;
+    text-transform: capitalize;
+}
+#msg{
+    color: white;
+    
+    font-size: 3vmin;
+}
+#new_game{
+    color: white;
+    text-transform: capitalize;
+    background-color: black;
+    margin-top: 2vmin;
+    height: 8vmin;
+    width: 16vmin;
+    border-radius: 15%;
+
+}
+.hide{
+    display:none;
+}
+#refresh{
+    margin-left: 75%;
+    font-size: 15px;
+}
+.X{
+    font-size: 100px;
+    color: black;
+}
+.O{
+    font-size: 100px;
+    color: white;
+}
